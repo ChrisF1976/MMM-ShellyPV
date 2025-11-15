@@ -63,7 +63,7 @@ To use this module, add it to the modules array in the `config/config.js` file:
 
 ```js
 	{
-	module: "MMM-ShellyStatusTable",
+	module: "MMM-ShellyPV",
 	position: "bottom_center",
 	disabled:false,
 	header:"Meine Shellys",
