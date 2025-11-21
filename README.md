@@ -86,7 +86,7 @@ To use this module, add it to the modules array in the `config/config.js` file:
 			// add more devices. Name should match with name defined in "Shellys"
 			],
 		showPowerValue:true, //power value in device list true/false
-		updateInterval: 5*1000,
+		updateInterval: 3*60*1000, //3 Minutes. Adjust as needed but keep RateLimit for Shelly API in mind - actually 10 seconds!
 		MaxPower:"100", // value for main gauge. Adjust as you like to the used power
 		MaxPowerSource:"1600", // value for second gauge. Adjust to your possible PV power.
 		Radius:"90", //circle radius
