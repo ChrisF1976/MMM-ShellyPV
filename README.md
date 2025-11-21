@@ -48,10 +48,6 @@ In your terminal, go to your [MagicMirror²][mm] Module folder and clone MMM-She
 ```bash
 cd ~/MagicMirror/modules
 git clone https://github.com/ChrisF1976/MMM-ShellyPV.git
-```
-
-not needed but doesn't hurt: 
-```bash
 cd MMM-ShellyPV
 npm install
 ```
