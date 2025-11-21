@@ -57,6 +57,7 @@ npm install
 ```bash
 cd ~/MagicMirror/modules/MMM-ShellyPV
 git pull
+npm install
 ```
 
 ## Using the module
